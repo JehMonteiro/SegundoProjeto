@@ -20,7 +20,7 @@ header > h1 {
     color: white;
     line-height: 0.7em;
     size: 10px;
-    background-size: contain;
+    background-size: cover;
 }  
 
 header > img {
@@ -65,6 +65,18 @@ div {
     display: inline-block;
 
 
+}
+
+#produtos,
+#carrinho {
+    max-width: 900px;
+    margin: 0 auto;
+    padding:0 2%;
+}
+
+.produto-single{
+    width: 33.3%;
+    padding: 0 20px;
 }
 footer {
     background-color: #2164D9;
